@@ -14,11 +14,8 @@ import java.util.List;
 @Validated
 public class BookController {
 
-    // Find
     @GetMapping("/books")
     List<Book> findAll() {
-//        return repository.findAll();
-
         List<Book> livros = new ArrayList<Book>();
         livros.addAll(
                 Arrays.asList(
