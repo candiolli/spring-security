@@ -1,4 +1,4 @@
-insert into Usuario (id, nome, login, senha, ativo) values (1, 'Alexandre Afonso', 'alexandre', '$2a$10$ARppQC0FRWaGP4pnZqYbpuVyYOWIp4q1r2ViT3PGYK6BafD5PXFiS', true);
+insert into Usuario (id, nome, login, senha, ativo) values (1, 'Silas Candiolli', 'silas', '$2a$10$ARppQC0FRWaGP4pnZqYbpuVyYOWIp4q1r2ViT3PGYK6BafD5PXFiS', true);
 
 insert into Grupo (id, nome, descricao) values (1, 'ANALISTA', 'Grupo de analistas');
 
