@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface PermissaoRepository extends JpaRepository<Permissao, Long> {
 	
-	List<Permissao> findByGruposIn(Grupo grupo);
+	List<Permissao> findByGruposIn(List<Grupo> grupo);
 
 }

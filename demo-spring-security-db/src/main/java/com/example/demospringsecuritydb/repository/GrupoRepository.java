@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface GrupoRepository extends JpaRepository<Grupo, Long> {
 	
-	List<Grupo> findByUsuariosIn(Usuario usuario);
+	List<Grupo> findByUsuariosIn(List<Usuario> usuario);
 
 }

@@ -6,6 +6,7 @@ import com.example.demospringsecuritydb.model.Usuario;
 import com.example.demospringsecuritydb.repository.GrupoRepository;
 import com.example.demospringsecuritydb.repository.PermissaoRepository;
 import com.example.demospringsecuritydb.repository.UsuarioRepository;
+import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -42,14 +43,14 @@ public class MyUserDetailsService implements UserDetailsService {
     }
 
     public Collection<? extends GrantedAuthority> authorities(Usuario usuario) {
-        return authorities(grupos.findByUsuariosIn(usuario));
+        return authorities(grupos.findByUsuariosIn(Lists.newArrayList(usuario)));
     }
 
     public Collection<? extends GrantedAuthority> authorities(List<Grupo> grupos) {
         Collection<GrantedAuthority> auths = new ArrayList<>();
 
         for (Grupo grupo: grupos) {
-            List<Permissao> lista = permissoes.findByGruposIn(grupo);
+            List<Permissao> lista = permissoes.findByGruposIn(Lists.newArrayList(grupo));
 
             for (Permissao permissao: lista) {
                 auths.add(new SimpleGrantedAuthority("ROLE_" + permissao.getNome()));

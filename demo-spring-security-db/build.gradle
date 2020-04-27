@@ -35,8 +35,8 @@ dependencies {
 	}
 	testImplementation 'org.springframework.security:spring-security-test'
 
-//	runtime 'com.h2database:h2:1.4.193'
-
+	compile group: 'com.google.guava', name: 'guava', version: 'r05'
+	runtime 'com.h2database:h2:1.4.193'
 }
 
 test {

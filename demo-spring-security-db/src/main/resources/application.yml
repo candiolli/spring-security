@@ -5,6 +5,7 @@ spring:
       path: /h2-console
   datasource:
     url: jdbc:h2:mem:projeto
+    driverClassName: org.h2.Driver
   jpa:
     hibernate.ddl-auto: update
     show-sql: true
