@@ -25,4 +25,14 @@ public class BookController {
         return livros;
     }
 
+    @GetMapping("/books2")
+    List<Book> findAll2() {
+        List<Book> livros = new ArrayList<Book>();
+        livros.addAll(
+                Arrays.asList(
+                        new Book("Livro 2", new BigDecimal(1))
+                ));
+        return livros;
+    }
+
 }
