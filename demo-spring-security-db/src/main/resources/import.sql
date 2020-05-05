@@ -5,14 +5,12 @@ insert into GRUPO (id, nome, descricao) values (1, 'ANALISTA', 'Grupo de analist
 insert into GRUPO (id, nome, descricao) values (2, 'SUPERVISOR', 'Grupo de supervisores');
 
 insert into PERMISSAO (id, nome) values (1, 'ADMIN');
-insert into PERMISSAO (id, nome) values (2, 'READER');
-insert into PERMISSAO (id, nome) values (3, 'WRITER');
+insert into PERMISSAO (id, nome) values (2, 'USER');
 
 insert into USUARIO_GRUPOS (usuarios_id, grupos_id) values (1, 1);
 insert into USUARIO_GRUPOS (usuarios_id, grupos_id) values (2, 2);
 
 insert into GRUPO_PERMISSOES (grupos_id, permissoes_id) values (2, 1);
 insert into GRUPO_PERMISSOES (grupos_id, permissoes_id) values (2, 2);
-insert into GRUPO_PERMISSOES (grupos_id, permissoes_id) values (2, 3);
 
 insert into GRUPO_PERMISSOES (grupos_id, permissoes_id) values (1, 2);

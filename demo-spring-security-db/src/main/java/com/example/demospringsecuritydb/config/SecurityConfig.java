@@ -24,7 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/h2-console/**").permitAll()
                 .antMatchers("/").permitAll()
-                .antMatchers("/books").hasRole("READER")
+                .antMatchers("/books").hasRole("USER")
                 .antMatchers("/books2").hasRole("ADMIN")
                 .and()
                 .csrf().disable()
@@ -33,11 +33,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder builder) throws Exception {
-        System.out.println("BCrypt password = " + new BCryptPasswordEncoder().encode("123"));
         builder
                 .userDetailsService(userDetailsService)
                 .passwordEncoder(new BCryptPasswordEncoder());
-
     }
 
 }
