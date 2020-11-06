@@ -20,7 +20,7 @@ public class BookController {
         livros.addAll(
                 Arrays.asList(
                         new Book("Livro 1", new BigDecimal(1)),
-                        new Book("Livro 1", new BigDecimal(1))
+                        new Book("Livro 2", new BigDecimal(21))
                 ));
         return livros;
     }

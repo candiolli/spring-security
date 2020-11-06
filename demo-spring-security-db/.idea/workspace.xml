@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0132c753-0504-4cfd-a55c-4db41e026e48" name="Default Changelist" comment="Ajusta roles e retira sysout" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../demo-basic-auth">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../demo-basic-auth-db">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../demo-oauth2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../demo-spring-security">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../demo-spring-security-oauth2">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../demo-spring-security-oauth2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../demo-oauth2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../demo-basic-auth">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../demo-basic-auth-db">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1b7aJEFfojv1qPBIOOFn6k5Md35" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-basic-auth-db" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\silascandiolli\dev\projetos\pocs\spring-security\demo-spring-security-oauth2\src\main\resources\template" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demospringsecuritydb.model" />
+      <recent name="com.example.demospringsecuritydb.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\silascandiolli\dev\projetos\pocs\spring-security\demo-spring-security-oauth2\src\main\resources\static" />
+      <recent name="C:\Users\silascandiolli\dev\projetos\pocs\spring-security\demo-spring-security-oauth2\src" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.demo-basic-auth-db [build]">
+    <configuration name="demo-basic-auth [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../demo-basic-auth" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo-basic-auth-db [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../demo-basic-auth-db" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo-oauth2 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../demo-oauth2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo-oauth2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../demo-oauth2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo-spring-security-oauth2 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../demo-spring-security-oauth2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="demo-basic-auth" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="demo-basic-auth" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.demo-basic-auth-db [build]" />
+        <item itemvalue="Gradle.demo-basic-auth [build]" />
+        <item itemvalue="Gradle.demo-oauth2 [bootRun]" />
+        <item itemvalue="Gradle.demo-oauth2 [build]" />
+        <item itemvalue="Gradle.demo-spring-security-oauth2 [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0132c753-0504-4cfd-a55c-4db41e026e48" name="Default Changelist" comment="" />
+      <created>1587985512336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587985512336</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Ajusta roles e retira sysout">
+      <created>1588709153794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588709153794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajusta roles e retira sysout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajusta roles e retira sysout" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1688" y="24" key="#Plugins" timestamp="1588244509304">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state x="1688" y="24" key="#Plugins/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588244509304" />
+    <state x="326" y="0" key="#Project_Structure" timestamp="1590426187825">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="152" y="-981" key="#Project_Structure/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371014345" />
+    <state x="326" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1590426187825" />
+    <state x="1783" y="116" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588591021915">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state x="1783" y="116" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588591021915" />
+    <state x="550" y="194" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590427171087">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="423" y="-804" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589311010056" />
+    <state x="550" y="194" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1590427171087" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1590429811352">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="2747" y="-48" key="CommitChangelistDialog2/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588709152529" />
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590429811352" />
+    <state x="2074" y="-100" width="505" height="565" key="FileChooserDialogImpl" timestamp="1591711428428">
+      <screen x="1366" y="-188" width="2560" height="1050" />
+    </state>
+    <state x="452" y="-799" width="594" height="610" key="FileChooserDialogImpl/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589310307091" />
+    <state x="2426" y="136" key="FileChooserDialogImpl/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588016491243" />
+    <state x="2074" y="-100" key="FileChooserDialogImpl/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1591711428428" />
+    <state x="378" y="62" width="505" height="565" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590428861580" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1590664608243">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="2517" height="308" key="GridCell.Tab.0.bottom/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371714505" />
+    <state width="2517" height="263" key="GridCell.Tab.0.bottom/0.0.1366.738/0.-1080.2560.1050@0.-1080.2560.1050" timestamp="1589572469176" />
+    <state width="2517" height="469" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588777464175" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-188.2560.1050@0.0.1366.738" timestamp="1590664608243" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589394226316" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590435249951" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center" timestamp="1590664608243">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="2517" height="308" key="GridCell.Tab.0.center/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371714505" />
+    <state width="2517" height="263" key="GridCell.Tab.0.center/0.0.1366.738/0.-1080.2560.1050@0.-1080.2560.1050" timestamp="1589572469175" />
+    <state width="2517" height="469" key="GridCell.Tab.0.center/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588777464174" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.738/1366.-188.2560.1050@0.0.1366.738" timestamp="1590664608243" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589394226316" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590435249951" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left" timestamp="1590664608243">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="2517" height="308" key="GridCell.Tab.0.left/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371714505" />
+    <state width="2517" height="263" key="GridCell.Tab.0.left/0.0.1366.738/0.-1080.2560.1050@0.-1080.2560.1050" timestamp="1589572469175" />
+    <state width="2517" height="469" key="GridCell.Tab.0.left/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588777464174" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.738/1366.-188.2560.1050@0.0.1366.738" timestamp="1590664608243" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589394226316" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590435249951" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right" timestamp="1590664608243">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="2517" height="308" key="GridCell.Tab.0.right/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371714505" />
+    <state width="2517" height="263" key="GridCell.Tab.0.right/0.0.1366.738/0.-1080.2560.1050@0.-1080.2560.1050" timestamp="1589572469175" />
+    <state width="2517" height="469" key="GridCell.Tab.0.right/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588777464174" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.738/1366.-188.2560.1050@0.0.1366.738" timestamp="1590664608243" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589394226316" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590435249951" />
+    <state width="1241" height="350" key="GridCell.Tab.1.bottom" timestamp="1588619026542">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state width="1241" height="350" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588619026542" />
+    <state width="1241" height="350" key="GridCell.Tab.1.center" timestamp="1588619026542">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state width="1241" height="350" key="GridCell.Tab.1.center/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588619026542" />
+    <state width="1241" height="350" key="GridCell.Tab.1.left" timestamp="1588619026542">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state width="1241" height="350" key="GridCell.Tab.1.left/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588619026542" />
+    <state width="1241" height="350" key="GridCell.Tab.1.right" timestamp="1588619026542">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state width="1241" height="350" key="GridCell.Tab.1.right/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588619026542" />
+    <state x="289" y="30" width="916" height="708" key="SettingsEditor" timestamp="1590426344654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="173" y="-910" key="SettingsEditor/0.0.1366.738/-608.-1080.2560.1050@-608.-1080.2560.1050" timestamp="1589371036297" />
+    <state x="1907" y="-89" width="1238" height="781" key="SettingsEditor/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589976963855" />
+    <state x="289" y="30" width="916" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590426344654" />
+    <state x="1459" y="-45" width="1101" height="857" key="VCS.FileHistoryDialog" timestamp="1588605512183">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state x="1459" y="-45" width="1101" height="857" key="VCS.FileHistoryDialog/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588605512183" />
+    <state x="2878" y="116" key="Vcs.Push.Dialog.v2" timestamp="1588709174427">
+      <screen x="1366" y="-145" width="2560" height="1050" />
+    </state>
+    <state x="2878" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588709174427" />
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590422907449">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1590422907449" />
+    <state x="187" y="0" width="766" height="738" key="find.popup" timestamp="1590427902113">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="187" y="0" width="766" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1590427902113" />
+    <state x="2302" y="149" width="672" height="677" key="run.anything.popup" timestamp="1589391552530">
+      <screen x="1366" y="-188" width="2560" height="1050" />
+    </state>
+    <state x="2302" y="149" width="672" height="677" key="run.anything.popup/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589391552530" />
+    <state x="210" y="164" width="976" height="392" key="search.everywhere.popup" timestamp="1590417095969">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="1759" y="88" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-145.2560.1050@1366.-145.2560.1050" timestamp="1588793529510" />
+    <state x="1759" y="45" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-188.2560.1050@1366.-188.2560.1050" timestamp="1589976926399" />
+    <state x="210" y="164" width="976" height="392" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590417095969" />
+  </component>
+</project>
